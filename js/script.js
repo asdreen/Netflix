@@ -2,7 +2,7 @@ const BASE_URL = "https://striveschool-api.herokuapp.com/api/movies/";
 const headers = new Headers({
   "Content-Type": "application/json",
   Authorization:
-    "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZkMGE2N2Q0YmUzZDAwMTU4NDYwYjIiLCJpYXQiOjE2NjgxNjI2NzksImV4cCI6MTY2OTM3MjI3OX0.6OjKO7dmaKz-AecUVKIxy2KqIywFUijp6HbfRPVcutc",
+    "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZkMGE2N2Q0YmUzZDAwMTU4NDYwYjIiLCJpYXQiOjE2NjkzODQ5NjMsImV4cCI6MTY3MDU5NDU2M30.pODP8-CJ7V9U2SeEdT2Jmr88AEnWka41a8AfrL1_i-4",
 });
 arrayOfMovies = [];
 const getMovies = (callback) => {
